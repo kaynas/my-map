@@ -1,7 +1,7 @@
 # my-map
 Test React with Yandex Map
 
-#install
+# install
 $ npm install
 
 # build project
