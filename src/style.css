@@ -1,0 +1,86 @@
+.title{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-width: bold;
+}
+.main_wrap{
+	display: flex;
+	justify-content: center;
+}
+#list_wrap{
+	margin-right: 50px;
+}
+ul{
+	padding: 0px 0px 0px 0px;
+}
+.list_element{
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: #ccc;
+	list-style-type: none; 
+	display: flex;
+	justify-content: space-between;
+}
+.list_element:hover{
+	cursor: pointer;
+}
+.close_button{
+	border: 1px solid black;
+	background-color: yellow;
+}
+.input_field{
+	width: 300px;
+}
+#map{
+	width: 400px;
+	height: 400px;
+}
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+.my-balloon {
+	display: inline-block;
+	padding: 4px 10px;
+	height: 75px;
+	position: relative;
+	bottom: 80px;
+	left: -10px;
+	width: 158px;
+	font-size: 11px;
+	line-height: 15px;
+	color: #333333;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #FFFFF6;
+	border: 1px solid #CDB7B5;
+	border-radius: 6px;
+	font-family: Arial;
+}
+.close {
+	margin-top: -3px;
+}
+.delete_button_wrap{
+	text-align: center;
+	margin-top: 10px;
+}
+.delete_button{
+	background-color: yellow;
+	border-radius: 3px;
+}
+.drop_place_higher{
+	margin-top: 10px;
+	border-top: 2px dashed red;
+}
+.drop_place_lower{
+	margin-bottom: 10px;
+	border-bottom: 2px dashed red;
+}
