@@ -33124,7 +33124,7 @@ function (_React$Component2) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("input", {
         "class": "input_field",
         type: "text",
-        placeholder: "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0442\u043E\u0447\u043A\u0443 \u043C\u0430\u0440\u0448\u0440\u0443\u0442\u0430",
+        placeholder: "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0430\u0434\u0440\u0435\u0441 \u043C\u0430\u0440\u0448\u0440\u0443\u0442\u0430",
         id: "suggest",
         onKeyDown: function onKeyDown(e) {
           return _this2._setAddress(e);

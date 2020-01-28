@@ -116,7 +116,7 @@ class InputLine extends React.Component {
             document.getElementById('suggest').value = this.props.changedAddress;
         }
         return (
-            <input class="input_field" type="text" placeholder="Введите точку маршрута" id="suggest" onKeyDown={(e) => this._setAddress(e)}/>
+            <input class="input_field" type="text" placeholder="Введите адрес маршрута" id="suggest" onKeyDown={(e) => this._setAddress(e)}/>
         );
     }
 }
