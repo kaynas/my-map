@@ -12,3 +12,4 @@ ymaps.ready(function(){
     ReactDOM.render(<ListWrap mainMap={main_Map}/>, document.getElementById('list_wrap'));/*В родительский компонент передаём ссылку на объект карты*/
     suggestView = new ymaps.SuggestView('suggest');
 });
+    /*Test string*/
